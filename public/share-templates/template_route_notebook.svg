@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="941" height="1672" viewBox="0 0 941 1672">
+  <defs>
+    <filter id="paperNoise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.012" numOctaves="4" seed="42"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.12"/>
+      </feComponentTransfer>
+      <feBlend in="SourceGraphic" mode="multiply"/>
+    </filter>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="9" stdDeviation="9" flood-color="#7d6b4c" flood-opacity="0.18"/>
+    </filter>
+    <style>
+      .ink{fill:#0b5a4a;font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-weight:900}
+      .orange{fill:#d95a32;font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-weight:900}
+      .hand{fill:#163f38;font-family:"KaiTi","STKaiti","Microsoft YaHei",sans-serif;font-weight:900}
+      .line{fill:none;stroke:#172d2a;stroke-width:8;stroke-linecap:round;stroke-linejoin:round}
+      .doodle{fill:none;stroke:#7da06c;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;opacity:.86}
+      .blue{fill:none;stroke:#79aee0;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;opacity:.86}
+      .accent{fill:none;stroke:#e06934;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+      .sun{fill:none;stroke:#f0a712;stroke-width:4;stroke-linecap:round}
+      .dash{fill:#fffdf6;stroke:#7da06c;stroke-width:4;stroke-dasharray:10 10}
+    </style>
+  </defs>
+
+  <rect width="941" height="1672" fill="#fbf2df" filter="url(#paperNoise)"/>
+  <rect x="18" y="18" width="905" height="1636" rx="22" fill="none" stroke="#efd9a2" stroke-width="7" opacity=".55"/>
+
+  <text x="60" y="84" class="ink" font-size="42">爽活迹</text>
+  <text x="210" y="82" class="ink" font-size="26">Schoolwalk</text>
+  <g class="sun" transform="translate(365 58)">
+    <circle r="13"/>
+    <path d="M0-29v-12M0 29v12M-29 0h-12M29 0h12M-21-21l-8-8M21 21l8 8M21-21l8-8M-21 21l-8 8"/>
+  </g>
+
+  <path d="M70 150l-26 18 20 8 8 20 28-50z" class="doodle" opacity=".55"/>
+  <path d="M820 210c18-30 54-20 46 14-5 22-35 42-52 52-12-18-28-48 6-66z" class="accent"/>
+  <path d="M55 268c18-34 44-46 72-30M78 290c22-16 44-16 66 0" class="doodle"/>
+
+  <g transform="rotate(-3 380 126)" filter="url(#softShadow)">
+    <rect x="70" y="92" width="570" height="112" rx="8" fill="#e5d0ab"/>
+    <text x="112" y="172" class="ink" font-size="72">校园</text>
+    <text x="292" y="172" class="orange" font-size="72">路线手账</text>
+  </g>
+  <rect x="42" y="128" width="66" height="34" rx="4" fill="#ef9d93" opacity=".58" transform="rotate(-18 75 145)"/>
+  <rect x="120" y="346" width="116" height="42" rx="4" fill="#99b77e" opacity=".62" transform="rotate(-15 178 367)"/>
+  <rect x="704" y="372" width="110" height="42" rx="4" fill="#e98991" opacity=".62" transform="rotate(15 759 393)"/>
+  <rect x="74" y="736" width="118" height="42" rx="4" fill="#f0a15f" opacity=".62" transform="rotate(-15 133 757)"/>
+  <rect x="726" y="1168" width="122" height="42" rx="4" fill="#f0a15f" opacity=".62" transform="rotate(16 787 1189)"/>
+  <rect x="92" y="1146" width="118" height="42" rx="4" fill="#88a7d0" opacity=".58" transform="rotate(-14 151 1167)"/>
+
+  <text x="180" y="295" class="ink" font-size="31">不卷步数，只记录一次出门回血</text>
+  <path d="M250 312c130-12 290-12 440 0" class="accent"/>
+
+  <g transform="rotate(5 796 156)" filter="url(#softShadow)">
+    <rect x="708" y="48" width="190" height="260" rx="24" class="dash"/>
+    <rect x="812" y="42" width="76" height="34" rx="4" fill="#99b77e" opacity=".65" transform="rotate(14 850 59)"/>
+    <path d="M748 126c-20 16-20 36 0 52M748 126c22 18 22 36 0 52" class="doodle"/>
+    <path d="M728 86l8 16 18 2-13 12 4 18-17-9-16 9 4-18-13-12 18-2z" class="sun"/>
+  </g>
+
+  <path d="M470 342c-38 110-38 212 0 316s38 197 0 306-38 220 0 332" class="line"/>
+  <path d="M506 1294l-36 52-36-52" fill="none" stroke="#172d2a" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M50 315c-20 24-28 52-22 82M66 315c22 24 28 52 22 82" class="doodle"/>
+  <path d="M608 332c20 12 44 12 66 0M610 356c18 11 43 11 64 0" class="doodle"/>
+  <path d="M610 900h48v54h-48zM622 900v-28h24v28" class="doodle"/>
+  <path d="M595 710c22 18 42 18 62 0M596 730c20 14 40 14 60 0" class="blue"/>
+  <g class="sun" transform="translate(540 820)">
+    <circle r="18"/>
+    <path d="M0-38v-13M0 38v13M-38 0h-13M38 0h13M-27-27l-9-9M27 27l9 9M27-27l9-9M-27 27l-9 9"/>
+  </g>
+  <path d="M324 434c-28 6-48 20-62 42M612 548c30-24 62-32 96-24M292 1228c-22 16-44 18-70 4M606 1256c34-30 70-32 108-8" class="doodle"/>
+  <path d="M324 545c-42 12-70 36-86 72M655 970c34 8 60 26 78 54" class="doodle"/>
+  <path d="M340 1038c-28 4-48 20-62 46M696 1348c36 8 64 28 84 62" class="accent"/>
+
+  <path d="M70 1510c28-28 60-34 96-14M760 1508c34-30 70-32 108-8" class="doodle"/>
+  <path d="M76 1530c-18-32-8-64 24-88M118 1534c-10-42 6-74 48-98M808 1530c-12-38 2-70 42-96M848 1536c4-42 28-70 72-84" class="doodle"/>
+
+  <text x="180" y="1570" class="ink" font-size="34">不卷步数，只记录一次出门回血</text>
+  <path d="M180 1588c160-14 410-14 620 0" class="accent"/>
+</svg>
