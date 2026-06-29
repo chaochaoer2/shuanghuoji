@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1440" viewBox="0 0 1080 1440">
+  <rect width="1080" height="1440" fill="#fff8e8"/>
+  <text x="76" y="130" font-size="78" font-weight="900" fill="#2f7d4d" font-family="KaiTi, Microsoft YaHei">校园集章计划</text>
+  <text x="84" y="186" font-size="30" font-weight="800" fill="#2f7d4d" font-family="KaiTi, Microsoft YaHei">收集今天的开心小片段</text>
+  <circle cx="954" cy="88" r="34" fill="#ffe38a"/><text x="936" y="101" font-size="34" fill="#143d35">☺</text>
+  <g font-family="KaiTi, Microsoft YaHei" font-weight="900">
+    <g><rect x="64" y="248" width="300" height="300" rx="30" fill="#fffdf6" stroke="#b9d7c7" stroke-width="4"/><rect x="84" y="268" width="260" height="218" rx="22" fill="#dceee6"/><rect x="84" y="488" width="260" height="44" rx="16" fill="#fffdf6"/><text x="106" y="518" font-size="23" fill="#143d35">图书馆｜0min</text></g>
+    <g><rect x="388" y="248" width="300" height="300" rx="30" fill="#fffdf6" stroke="#b9d7c7" stroke-width="4"/><rect x="408" y="268" width="260" height="218" rx="22" fill="#d8e8f4"/><rect x="408" y="488" width="260" height="44" rx="16" fill="#fffdf6"/><text x="430" y="518" font-size="23" fill="#143d35">湖边慢走｜6min</text></g>
+    <g><rect x="712" y="248" width="300" height="300" rx="30" fill="#fffdf6" stroke="#b9d7c7" stroke-width="4"/><rect x="732" y="268" width="260" height="218" rx="22" fill="#f5e0c5"/><rect x="732" y="488" width="260" height="44" rx="16" fill="#fffdf6"/><text x="754" y="518" font-size="23" fill="#143d35">偶遇猫猫｜12min</text></g>
+    <g><rect x="64" y="572" width="300" height="300" rx="30" fill="#fffdf6" stroke="#b9d7c7" stroke-width="4"/><rect x="84" y="592" width="260" height="218" rx="22" fill="#ffe9a8"/><rect x="84" y="812" width="260" height="44" rx="16" fill="#fffdf6"/><text x="106" y="842" font-size="23" fill="#143d35">补给时刻｜18min</text></g>
+    <rect x="388" y="572" width="300" height="300" rx="30" fill="#fff8e8" stroke="#b9d7c7" stroke-width="4" stroke-dasharray="10 9"/>
+    <circle cx="538" cy="682" r="74" fill="#e9a72e" stroke="#b97816" stroke-width="8"/><circle cx="538" cy="682" r="50" fill="#ffe38a"/><text x="492" y="694" font-size="30" fill="#2f7d4d">爽活币</text>
+    <path d="M444 800 C500 760, 570 840, 638 800" fill="none" stroke="#79a564" stroke-width="5" stroke-linecap="round" stroke-dasharray="10 10"/>
+    <text x="428" y="840" font-size="20" fill="#f97316">0 → 6 → 12 → 18 → 30min</text>
+    <g><rect x="712" y="572" width="300" height="300" rx="30" fill="#fffdf6" stroke="#b9d7c7" stroke-width="4"/><rect x="732" y="592" width="260" height="218" rx="22" fill="#dceee6"/><rect x="732" y="812" width="260" height="44" rx="16" fill="#fffdf6"/><text x="754" y="842" font-size="23" fill="#143d35">钟楼打卡｜24min</text></g>
+    <g><rect x="64" y="896" width="300" height="300" rx="30" fill="#fffdf6" stroke="#b9d7c7" stroke-width="4"/><rect x="84" y="916" width="260" height="218" rx="22" fill="#d8e8f4"/><rect x="84" y="1136" width="260" height="44" rx="16" fill="#fffdf6"/><text x="106" y="1166" font-size="23" fill="#143d35">草地小憩｜26min</text></g>
+    <g><rect x="388" y="896" width="300" height="300" rx="30" fill="#fffdf6" stroke="#b9d7c7" stroke-width="4"/><rect x="408" y="916" width="260" height="218" rx="22" fill="#f5e0c5"/><rect x="408" y="1136" width="260" height="44" rx="16" fill="#fffdf6"/><text x="430" y="1166" font-size="23" fill="#143d35">结伴同行｜28min</text></g>
+    <g><rect x="712" y="896" width="300" height="300" rx="30" fill="#fffdf6" stroke="#b9d7c7" stroke-width="4"/><rect x="732" y="916" width="260" height="218" rx="22" fill="#f5d6c0"/><rect x="732" y="1136" width="260" height="44" rx="16" fill="#fffdf6"/><text x="754" y="1166" font-size="23" fill="#143d35">落日收尾｜30min</text></g>
+  </g>
+  <text x="90" y="1260" font-size="32" font-weight="900" fill="#143d35" font-family="KaiTi, Microsoft YaHei">饭后追霞径 · 30 min · 1.6 km</text>
+  <text x="90" y="1310" font-size="32" font-weight="900" fill="#2f7d4d" font-family="KaiTi, Microsoft YaHei">不卷步数，只记录一次出门回血</text>
+  <rect x="250" y="1370" width="170" height="46" rx="23" fill="#ddeedc"/><text x="284" y="1401" font-size="25" font-weight="900" fill="#2f7d4d">#散步</text>
+  <rect x="438" y="1370" width="170" height="46" rx="23" fill="#ffe2a6"/><text x="470" y="1401" font-size="25" font-weight="900" fill="#2f7d4d">#回血中</text>
+  <rect x="626" y="1370" width="170" height="46" rx="23" fill="#ffd2cc"/><text x="660" y="1401" font-size="25" font-weight="900" fill="#d9412e">#校园</text>
+</svg>

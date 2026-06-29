@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1440" viewBox="0 0 1080 1440">
+  <defs>
+    <filter id="paperNoise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.018" numOctaves="4" seed="8"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 .18"/>
+      </feComponentTransfer>
+    </filter>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="8" flood-color="#4b3a22" flood-opacity=".16"/>
+    </filter>
+    <pattern id="cloth" width="18" height="18" patternUnits="userSpaceOnUse">
+      <path d="M0 9H18M9 0V18" stroke="#c9c2b5" stroke-width=".8" opacity=".22"/>
+    </pattern>
+  </defs>
+
+  <rect width="1080" height="1440" fill="#f6f0df"/>
+  <rect width="1080" height="1440" fill="url(#cloth)" opacity=".7"/>
+  <rect width="1080" height="1440" filter="url(#paperNoise)" opacity=".5"/>
+
+  <g font-family="KaiTi, STKaiti, Microsoft YaHei" font-weight="900">
+    <rect x="238" y="72" width="520" height="76" fill="#d7c3a2" opacity=".55"/>
+    <rect x="440" y="38" width="200" height="130" rx="18" fill="#bcd7cf" opacity=".55"/>
+    <text x="278" y="132" font-size="72" fill="none" stroke="#9a6414" stroke-width="3">校园 DAY 1：</text>
+    <text x="280" y="132" font-size="72" fill="#b77719">校园 DAY 1：</text>
+    <text x="92" y="238" font-size="30" fill="#143d35">爽活迹 Schoolwalk · 不卷步数，只记录一次出门回血</text>
+  </g>
+
+  <g stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M610 145 C575 260, 656 328, 602 428 S492 552, 536 690 S462 848, 514 980 S584 1135, 462 1288" stroke="#1d2b2b" stroke-width="6"/>
+    <path d="M610 145 C575 260, 656 328, 602 428 S492 552, 536 690 S462 848, 514 980 S584 1135, 462 1288" stroke="#0c8fa4" stroke-width="2" opacity=".75"/>
+    <path d="M454 1274 L462 1288 L480 1282" stroke="#1d2b2b" stroke-width="6"/>
+  </g>
+
+  <g font-family="Comic Sans MS, KaiTi, Microsoft YaHei" font-weight="900">
+    <g>
+      <circle cx="610" cy="145" r="12" fill="#0c8fa4"/>
+      <rect x="644" y="122" width="128" height="38" rx="19" fill="#102a3b"/>
+      <text x="668" y="149" font-size="24" fill="#fff8e8">0 min</text>
+      <text x="512" y="120" font-size="26" fill="#143d35" transform="rotate(-12 512 120)">从图书馆出发</text>
+    </g>
+    <g>
+      <circle cx="620" cy="320" r="12" fill="#0c8fa4"/>
+      <rect x="642" y="302" width="132" height="38" rx="19" fill="#102a3b"/>
+      <text x="660" y="329" font-size="24" fill="#fff8e8">+8 min</text>
+      <text x="658" y="368" font-size="25" fill="#d9412e" transform="rotate(8 658 368)">沿湖边慢慢走</text>
+    </g>
+    <g>
+      <circle cx="545" cy="522" r="12" fill="#0c8fa4"/>
+      <rect x="376" y="508" width="136" height="38" rx="19" fill="#102a3b"/>
+      <text x="396" y="535" font-size="24" fill="#fff8e8">+6 min</text>
+      <text x="352" y="574" font-size="25" fill="#143d35" transform="rotate(-8 352 574)">遇到第一只猫</text>
+    </g>
+    <g>
+      <circle cx="535" cy="700" r="12" fill="#0c8fa4"/>
+      <rect x="558" y="676" width="142" height="38" rx="19" fill="#102a3b"/>
+      <text x="578" y="703" font-size="24" fill="#fff8e8">+10 min</text>
+      <text x="574" y="750" font-size="25" fill="#d9412e" transform="rotate(7 574 750)">买杯喝的补快乐</text>
+    </g>
+    <g>
+      <circle cx="502" cy="882" r="12" fill="#0c8fa4"/>
+      <rect x="334" y="862" width="142" height="38" rx="19" fill="#102a3b"/>
+      <text x="354" y="889" font-size="24" fill="#fff8e8">+7 min</text>
+      <text x="310" y="934" font-size="25" fill="#143d35" transform="rotate(-7 310 934)">路过钟楼</text>
+    </g>
+    <g>
+      <circle cx="548" cy="1066" r="12" fill="#0c8fa4"/>
+      <rect x="570" y="1046" width="142" height="38" rx="19" fill="#102a3b"/>
+      <text x="590" y="1073" font-size="24" fill="#fff8e8">+9 min</text>
+      <text x="586" y="1116" font-size="25" fill="#d9412e" transform="rotate(8 586 1116)">落日收尾</text>
+    </g>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <g transform="rotate(-3 248 350)">
+      <rect x="88" y="270" width="330" height="250" fill="#fffdf6"/>
+      <rect x="104" y="286" width="298" height="218" fill="#d9efe3"/>
+      <text x="178" y="404" font-size="36" font-weight="900" fill="#2f7d4d" font-family="KaiTi, Microsoft YaHei">主打卡照片</text>
+      <rect x="74" y="252" width="86" height="24" fill="#5ab4c4" transform="rotate(-18 74 252)"/>
+      <rect x="342" y="250" width="86" height="24" fill="#5ab4c4" transform="rotate(16 342 250)"/>
+    </g>
+    <g transform="rotate(3 828 310)">
+      <rect x="742" y="212" width="230" height="340" fill="#fffdf6"/>
+      <rect x="760" y="232" width="194" height="300" fill="#dfeaf6"/>
+      <text x="790" y="392" font-size="30" font-weight="900" fill="#2f7d4d" font-family="KaiTi, Microsoft YaHei">人物 / 建筑</text>
+      <circle cx="858" cy="548" r="18" fill="#d9412e"/>
+    </g>
+    <g transform="rotate(2 225 740)">
+      <rect x="78" y="642" width="320" height="260" fill="#fffdf6"/>
+      <rect x="96" y="660" width="284" height="224" fill="#ffe3bb"/>
+      <text x="164" y="782" font-size="34" font-weight="900" fill="#2f7d4d" font-family="KaiTi, Microsoft YaHei">饮品 / 食堂</text>
+      <rect x="60" y="620" width="92" height="26" fill="#9db7cf" transform="rotate(-18 60 620)"/>
+    </g>
+    <g transform="rotate(-2 808 750)">
+      <rect x="704" y="616" width="292" height="230" fill="#fffdf6"/>
+      <rect x="722" y="634" width="256" height="194" fill="#d8e8f4"/>
+      <text x="770" y="740" font-size="34" font-weight="900" fill="#2f7d4d" font-family="KaiTi, Microsoft YaHei">湖边 / 风景</text>
+    </g>
+    <g transform="rotate(-4 220 1110)">
+      <rect x="92" y="1000" width="330" height="260" fill="#fffdf6"/>
+      <rect x="110" y="1018" width="294" height="224" fill="#dceee6"/>
+      <text x="180" y="1140" font-size="34" font-weight="900" fill="#2f7d4d" font-family="KaiTi, Microsoft YaHei">猫猫 / 小店</text>
+      <rect x="352" y="984" width="86" height="24" fill="#c7d35c" transform="rotate(18 352 984)"/>
+    </g>
+    <g transform="rotate(3 790 1120)">
+      <rect x="680" y="982" width="300" height="260" fill="#fffdf6"/>
+      <rect x="700" y="1000" width="260" height="224" fill="#f4d7c2"/>
+      <text x="756" y="1122" font-size="34" font-weight="900" fill="#2f7d4d" font-family="KaiTi, Microsoft YaHei">落日照片</text>
+    </g>
+  </g>
+
+  <g font-family="KaiTi, STKaiti, Microsoft YaHei" font-weight="900">
+    <path d="M430 406 C472 390, 500 382, 540 350" stroke="#d9412e" stroke-width="3" fill="none"/>
+    <text x="430" y="390" font-size="26" fill="#d9412e">这里风吹得刚刚好！</text>
+    <path d="M720 620 C666 630, 630 650, 584 688" stroke="#0c8fa4" stroke-width="3" fill="none"/>
+    <text x="720" y="610" font-size="26" fill="#143d35">走到这里，心情开始回血</text>
+    <path d="M398 1014 C448 980, 480 946, 504 898" stroke="#d9412e" stroke-width="3" fill="none"/>
+    <text x="116" y="960" font-size="26" fill="#143d35">每张照片都是一个路线节点</text>
+    <text x="706" y="1292" font-size="34" fill="#d9412e">DAY 1 完成！</text>
+    <text x="206" y="1340" font-size="36" fill="#143d35">不卷步数，只记录一次出门回血</text>
+  </g>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M78 190 C122 168, 154 176, 190 150" stroke="#143d35" stroke-width="3"/>
+    <path d="M826 150 l28 -22 l28 22 v34 h-56z" stroke="#143d35" stroke-width="3"/>
+    <path d="M894 850 c18 -12 40 -10 54 4" stroke="#0c8fa4" stroke-width="4"/>
+    <path d="M942 848 c18 -12 40 -10 54 4" stroke="#0c8fa4" stroke-width="4"/>
+    <path d="M90 1310 c24 -20 54 -20 78 0" stroke="#79a564" stroke-width="5"/>
+  </g>
+
+  <g font-family="Comic Sans MS, Microsoft YaHei" font-weight="900">
+    <rect x="94" y="226" width="94" height="46" rx="18" fill="#102a3b"/>
+    <text x="122" y="258" font-size="28" fill="#fff8e8">Start</text>
+    <rect x="786" y="1250" width="98" height="46" rx="18" fill="#102a3b"/>
+    <text x="814" y="1282" font-size="28" fill="#fff8e8">End</text>
+  </g>
+</svg>
