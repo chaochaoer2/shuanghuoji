@@ -1,0 +1,10 @@
+{
+  "name": "爽活迹",
+  "short_name": "爽活迹",
+  "theme_color": "#0f766e",
+  "background_color": "#eef8f6",
+  "display": "standalone",
+  "start_url": "/",
+  "scope": "/",
+  "description": "边走边拍，一键生成校园 Walk 九宫格。"
+}
